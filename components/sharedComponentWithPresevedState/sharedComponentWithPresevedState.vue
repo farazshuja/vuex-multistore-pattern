@@ -30,6 +30,9 @@ export default {
         ...mapActions({
             incrementCount: 'incrementCount',
         }),
+    },
+    destroyed() {
+        this.$store.unregisterModule(COMPONENT_STORE);
     }
 }
 </script>

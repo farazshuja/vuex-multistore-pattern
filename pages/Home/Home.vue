@@ -12,8 +12,8 @@
                     <div class="column">
                         <h4>Pros</h4>
                         <ul>
-                            <li>No need to register/un-register page and component stores.</li>
-                            <li>Register/Unregister nested pages easily inside created/destroyed hook</li>
+                            <li>No need to register/un-register page stores.</li>
+                            <li>Register/Unregister nested pages and components easily inside created/destroyed hook</li>
                             <li>Un-real watcher are not fired</li>
                         </ul>
                     </div>
@@ -64,6 +64,6 @@ export default {
     },
     methods: {
         ...mapActions(['incrementCount']),
-    },
+    }
 }
 </script>

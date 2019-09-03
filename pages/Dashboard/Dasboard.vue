@@ -41,6 +41,6 @@ export default {
         ...mapActions({
             incrementCount: 'incrementCount',
         }),
-    }
+    },
 }
 </script>
